@@ -56,7 +56,7 @@ https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-python-ser
    <li> Create requirements.txt
 
 ```
-   vim requirements.py
+   vim requirements.txt
 ``` 
 ```python
    Flask==2.1.0
@@ -111,5 +111,14 @@ __pycache__
 .pytest_cache
 ```
      
+   <li> Test application </li>
+   
+```
+   python main.py
+```
+   
+   [http://0.0.0.0:8080/](http://0.0.0.0:8080/)
+
+   
 </ul>
 
